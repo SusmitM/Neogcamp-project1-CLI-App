@@ -63,5 +63,5 @@
       play(gameQues.questions,gameQues.answer);
     }
     console.log("Well Played!!! "+userName.toUpperCase()+" you scored "+score);
-    console.log("Check out the high scores, if you make it then ping me and I'll update it");
+    console.log("Check out the high scores, if you make it to the leaderboard, then ping me and I'll update it");
     console.log(highscore());
