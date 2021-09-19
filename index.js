@@ -3,6 +3,11 @@
   var userName= readlineSync.question("HEY!!! Whats Your Name:) ");
   console.log("WELCOME "+userName+"!!!");
 
+  function highscore(){
+    console.log("SUSMIT: 7");
+    console.log("ARIJIT: 5");
+  }
+
   function play(question,answer){
     var userAns= readlineSync.question(question);
     
@@ -18,8 +23,8 @@
     }
     console.log("Your Current Score is: "+score);
     console.log("------------------------");
-
-    console.log("Well Played!!!"+userName.toUpperCase()+" you scored "+score);
+  
+    
     
   }
 
@@ -33,11 +38,11 @@
     answer:"Momos",
     },
     {
-    questions:"Whos is my fav football player? ",
+    questions:"Who's is my fav football player? ",
     answer:"Messi",
   },
   {
-    questions:"Whats my favourite movie? ",
+    questions:"What's my favourite movie? ",
     answer:"Tamasha",
   },
   {
@@ -57,3 +62,6 @@
       var gameQues=Questions[i];
       play(gameQues.questions,gameQues.answer);
     }
+    console.log("Well Played!!! "+userName.toUpperCase()+" you scored "+score);
+    console.log("Check out the high scores, if you make it then ping me and I'll update it");
+    console.log(highscore());
