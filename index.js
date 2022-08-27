@@ -54,8 +54,20 @@
   {questions:"Which is my dream destination to vist? ",
   answer:"North Korea",},
   {
+    questions:"Which is my favorite football team? ",
+    answer:"FC Barcelona",
+  },
+   {
+    questions:"Which social media site I use the most? ",
+    answer:"Twitter",
+  },
+  {
     questions:"Do I have any siblings? ",
     answer:"No",
+  },
+  {
+    questions:"Which is my favorite song? ",
+    answer:"Kun faya kun",
   },];
 
     
